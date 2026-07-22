@@ -1,0 +1,19 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+
+# WebSockets support
+websockets==12.0
+
+# Playwright
+playwright==1.46.0
+
+# Async + concurrency (important for Playwright)
+greenlet==3.0.3
+anyio==4.4.0
+
+# Data handling
+pydantic==2.8.2
+
+# Optional (but commonly needed)
+python-dotenv==1.0.1
+requests==2.32.3
