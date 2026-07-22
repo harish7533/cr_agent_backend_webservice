@@ -1,6 +1,6 @@
 from playwright.sync_api import sync_playwright
-from backend.job_store import update_job
-from backend.automation_run_manager import RunManager
+from job_store import update_job
+from automation_run_manager import RunManager
 
 BASE_URL = "https://design.instanda."
 

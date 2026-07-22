@@ -2,8 +2,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from threading import Thread
 
-from backend.job_store import create_job, get_job
-from backend.automation import run_automation
+from job_store import create_job, get_job
+from automation import run_automation
 
 app = FastAPI()
 

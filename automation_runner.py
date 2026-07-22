@@ -1,7 +1,7 @@
 import logging
 
 from playwright.sync_api import sync_playwright
-from new_project_creation.backend.automation_run_manager import RunManager
+from automation_run_manager import RunManager
 
 logger = logging.getLogger()
 
